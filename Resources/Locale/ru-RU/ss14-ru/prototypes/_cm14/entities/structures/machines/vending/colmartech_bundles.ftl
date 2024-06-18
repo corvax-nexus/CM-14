@@ -1,0 +1,16 @@
+ent-CMVendorBundleRiflemanApparel = standard marine apparel
+    .desc = { "" }
+ent-CMVendorBundleFireteamLeaderApparel = standard marine apparel
+    .desc = { ent-CMVendorBundleRiflemanApparel.desc }
+ent-CMVendorBundleSquadMedicalApparel = standard marine apparel
+    .desc = { ent-CMVendorBundleRiflemanApparel.desc }
+ent-CMVendorBundleSquadMedicalEssentials = essential medical set
+    .desc = { ent-CMVendorBundleRiflemanApparel.desc }
+ent-CMVendorBundleCombatTechnicianApparel = standard marine apparel
+    .desc = { ent-CMVendorBundleRiflemanApparel.desc }
+ent-CMVendorBundleCombatTechnicianEssentials = essential engineer set
+    .desc = { ent-CMVendorBundleRiflemanApparel.desc }
+ent-CMVendorBundleSquadLeaderApparel = standard marine apparel
+    .desc = { ent-CMVendorBundleRiflemanApparel.desc }
+ent-CMVendorBundleWeaponsSpecialistApparel = standard marine apparel
+    .desc = { ent-CMVendorBundleRiflemanApparel.desc }

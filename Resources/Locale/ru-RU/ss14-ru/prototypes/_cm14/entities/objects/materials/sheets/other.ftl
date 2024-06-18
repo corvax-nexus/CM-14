@@ -1,0 +1,9 @@
+ent-CMSheetPhoron = phoron
+    .suffix = Full
+    .desc = { ent-SheetOtherBase.desc }
+ent-CMSheetPhoron25 = { ent-CMSheetPhoron }
+    .suffix = 25
+    .desc = { ent-CMSheetPhoron.desc }
+ent-CMSheetPhoron1 = { ent-CMSheetPhoron }
+    .suffix = 1
+    .desc = { ent-CMSheetPhoron.desc }

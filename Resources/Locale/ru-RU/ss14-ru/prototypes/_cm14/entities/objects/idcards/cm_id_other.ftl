@@ -1,0 +1,10 @@
+ent-CMIDCardSeniorEnlistedAdvisor = senior enlisted advisor ID card
+    .desc = { ent-CMIDCardSilver.desc }
+ent-CMIDCardCorrespondent = correspondent ID card
+    .desc = { ent-CMIDCardBase.desc }
+ent-CMIDCardColonist = colonist ID card
+    .desc = { ent-CMIDCardLanyard.desc }
+ent-CMIDCardLiaison = liaison ID card
+    .desc = { ent-CMIDCardGold.desc }
+ent-CMIDCardMessTech = mess tech's ID card
+    .desc = { ent-CMIDCardBase.desc }

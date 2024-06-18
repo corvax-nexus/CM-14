@@ -1,0 +1,16 @@
+ent-CMLightFixtureAlwaysPowered = light fixture
+    .desc = A lighting fixture that is fitted with a bright fluorescent light tube. Looking at it for too long makes your eyes go watery.
+    .suffix = Always powered
+ent-CMLightFixtureEmpty = { ent-CMLightFixtureAlwaysPowered }
+    .suffix = Empty
+    .desc = { ent-CMLightFixtureAlwaysPowered.desc }
+ent-CMLightFixture = { ent-CMLightFixtureEmpty }
+    .desc = { ent-CMLightFixtureEmpty.desc }
+ent-CMLightFixtureSmallAlwaysPowered = { ent-CMLightFixtureAlwaysPowered }
+    .desc = A small lighting fixture that is fitted with a bright fluorescent light bulb. Looking at it for too long makes your eyes go watery.
+    .suffix = Always powered
+ent-CMLightFixtureSmallEmpty = { ent-CMLightFixtureSmallAlwaysPowered }
+    .suffix = Empty
+    .desc = { ent-CMLightFixtureSmallAlwaysPowered.desc }
+ent-CMLightFixtureSmall = { ent-CMLightFixtureSmallEmpty }
+    .desc = { ent-CMLightFixtureSmallEmpty.desc }

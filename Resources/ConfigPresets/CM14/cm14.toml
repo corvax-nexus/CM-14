@@ -1,10 +1,52 @@
-﻿[atmos]
+﻿[net]
+tickrate = 30
+max_connections = 150
+
+[game]
+hostname = "🛰️ Corvax — Colonial Marines 🌍"
+desc = "Corvax первый русскоязычный проект в Space Station 14.\nНа Колониальных Морпехах средние требования к RP."
+soft_max_players = 100
+map_rotation = true
+lobbyduration = 240
+lobbyenabled = true
+role_timers = true
+
+[whitelist]
+enabled = false
+
+[vote]
+restart_required_ratio = 0.85
+same_type_timeout = 300.0
+timerrestart = 30
+map_enabled = true
+preset_enabled = false
+
+[atmos]
 space_wind = false
 monstermos_rip_tiles = false
 grid_impulse = false
 
+[server]
+rules_header = "ui-rules-header-corvax" # UPDATE
+rules_file = "RulesCorvax.txt" # UPDATE
+
+[discord]
+rich_main_icon_id = "corvax" # UPDATE
+
+[rules]
+time = 1.0
+
+[viewport]
+maximum_width = 26
+
+[infolinks]
+discord = "https://discord.gg/VWJZFUWgRc"
+wiki = "https://station14.ru/wiki/Портал:Colonial_Marines"
+patreon = "https://boosty.to/corvax"
+appeal = "https://discord.gg/QBCV2f42xG"
+
 [hub]
-tags = "lang:en,region:am_n_e,rp:med"
+tags = "lang:ru,rp:med,region:eu_e"
 
 [physics]
 maxlinvelocity = 41
