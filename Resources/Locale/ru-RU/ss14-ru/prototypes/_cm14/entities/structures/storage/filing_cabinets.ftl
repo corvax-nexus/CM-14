@@ -2,15 +2,12 @@ ent-CMFilingCabinetBase = { "" }
     .desc = A large cabinet with drawers.
     .suffix = Empty
 ent-CMFilingCabinet = filing cabinet
-
-  .desc = { ent-['CMFilingCabinetBase', 'filingCabinet'].desc }
+    .desc = { ent-CMFilingCabinetBase.desc }
 ent-CMFilingCabinetTall = tall filing cabinet
-
-  .desc = { ent-['CMFilingCabinetBase', 'filingCabinetTall'].desc }
+    .desc = { ent-CMFilingCabinetBase.desc }
 ent-CMFilingCabinetTallWood = tall wooden filing cabinet
     .desc = { ent-CMFilingCabinetTall.desc }
 ent-CMFilingCabinetChest = chest drawer
-
-  .desc = { ent-['CMFilingCabinetBase', 'filingCabinetDrawer'].desc }
+    .desc = { ent-CMFilingCabinetBase.desc }
 ent-CMFilingCabinetChestWood = wooden chest drawer
     .desc = { ent-CMFilingCabinetChest.desc }

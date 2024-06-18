@@ -1,6 +1,5 @@
-ent-CMDoubleDoorBase = { ent-['CMBaseDoor', 'CMBaseDoorConstructible'] }
-
-  .desc = { ent-['CMBaseDoor', 'CMBaseDoorConstructible'].desc }
+ent-CMDoubleDoorBase = { ent-CMBaseDoor }
+    .desc = { ent-CMBaseDoor.desc }
 ent-CMDoubleDoorAlmayerGlass = { ent-CMDoubleDoorBase }
     .suffix = Almayer, Glass
     .desc = { ent-CMDoubleDoorBase.desc }

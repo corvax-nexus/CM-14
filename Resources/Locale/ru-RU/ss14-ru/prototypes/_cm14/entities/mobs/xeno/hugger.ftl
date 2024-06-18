@@ -1,3 +1,2 @@
 ent-CMXenoHugger = Facehugger
-
-  .desc = { ent-['CMXenoUndeveloped', 'CMXenoFlammable'].desc }
+    .desc = { ent-CMXenoFlammable.desc }

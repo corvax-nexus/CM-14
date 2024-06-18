@@ -1,8 +1,7 @@
 ent-CMPouch = abstract pouch
     .desc = The physical manifestation of the concept of a pouch. Woah.
 ent-CMPouchStorage = storage pouch
-
-  .desc = { ent-['CMPouch', 'BaseStorageItem'].desc }
+    .desc = { ent-CMPouch.desc }
 ent-CMPouchClosed = { ent-CMPouch }
     .desc = { ent-CMPouch.desc }
 ent-CMPouchOpenClosed = { ent-CMPouch }

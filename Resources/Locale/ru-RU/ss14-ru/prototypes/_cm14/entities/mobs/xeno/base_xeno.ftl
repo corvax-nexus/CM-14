@@ -12,9 +12,8 @@ ent-CMXenoUndeveloped = { ent-CMXenoBase }
     .desc = { ent-CMXenoBase.desc }
 ent-CMXenoAI = { ent-CMXenoBase }
     .desc = { ent-CMXenoBase.desc }
-ent-CMXenoDeveloped = { ent-['CMXenoBase', 'CMXenoPrying', 'CMXenoPuller', 'CMXenoMelee', 'CMXenoAI'] }
-
-  .desc = { ent-['CMXenoBase', 'CMXenoPrying', 'CMXenoPuller', 'CMXenoMelee', 'CMXenoAI'].desc }
+ent-CMXenoDeveloped = { ent-CMXenoAI }
+    .desc = { ent-CMXenoBase.desc }
 ent-CMXenoTail = { "" }
     .desc = { "" }
 ent-CMXenoFlammable = { "" }
